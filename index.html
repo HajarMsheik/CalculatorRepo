@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="root">
+        <input  type="text" id="screen">
+        <button id="clearnnb" onclick="removeNb()">x </button>
+		<button id="clear" onclick="clearScreen()">AC </button>
+		<button id="divide" onclick="operate('/')">/</button>
+		<button id="multiply" onclick="operate('*')">*</button>
+		<button id="seven" onclick="display('7')">7</button>
+		<button id="eight" onclick="display('8')">8</button>
+		<button id="nine" onclick="display('9')">9</button>
+		<button id="minus"onclick="operate('-')" >-</button>
+		<button id="four" onclick="display('4')">4</button>
+		<button id="five" onclick="display('5')">5</button>
+		<button id="six" onclick="display('6')">6</button>
+		<button id="plus"onclick="operate('+')" >+</button>
+		<button id="one" onclick="display('1')">1</button>
+		<button id="two" onclick="display('2')">2</button>
+		<button id="three"onclick="display('3')">3</button>
+		<button id="zero" onclick="display('0')">0</button>
+        <button id="modulo" onclick="operate('%')" >%</button>
+		<button id="dot" onclick="display('.')">.</button>
+		<button id="equal" onclick="calculate()">=</button>
+		
+	</div>
+<script  src="calJavascript.js"> </script>
+</body>
+</html>
